@@ -3,6 +3,27 @@
 #The source code of this project is available on GitHub @SilverShadowed
 
 
+'''
+simplecsvfileeditor
+Copyright (C) 2024  Zixin Zhang
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as
+published by the Free Software Foundation, either version 3 of the
+License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+'''
+
+
+
+
 
 import tkinter as tk
 from tkinter import filedialog
@@ -55,7 +76,7 @@ class SpreadsheetEditor:
         self.table_frame = tk.Frame(self.root)
         self.table_frame.pack(expand=True, fill=tk.BOTH)
         # Footer label
-        footer = tk.Label(self.root, text="Made in June 2025", fg="grey", font=("Arial", 8))
+        footer = tk.Label(self.root, text="Source code is available on GitHub @SilverShadowed; ©2025 Zixin Zhang", fg="grey", font=("Arial", 8))
         footer.pack(side=tk.BOTTOM, pady=2)
 
 
